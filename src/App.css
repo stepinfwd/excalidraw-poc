@@ -1,0 +1,18 @@
+@import "tailwindcss";
+.app-wrapper{
+  margin: 0 auto;
+  /* background-color: wheat; */
+}
+
+/* in your global.css or index.css */
+@font-face {
+  font-family: 'Virgil';
+  src: url('/Excalifont-Regular.woff2') format('woff2'),
+       url('/Excalifont-Regular.woff2.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.handdrawn {
+  font-family: 'Virgil', sans-serif;
+}
