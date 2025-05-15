@@ -16,3 +16,20 @@
 .handdrawn {
   font-family: 'Virgil', sans-serif;
 }
+.undo-redo {
+  background: white;
+  border: 2px solid black;
+  padding: 8px 16px;
+  margin: 4px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 black;
+  transition: all 0.1s ease-in-out;
+}
+
+.undo-redo:hover {
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 0 black;
+  transform: translate(1px, 1px);
+}
